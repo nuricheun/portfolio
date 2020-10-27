@@ -32,20 +32,10 @@
       <!-- Nav -->
       <nav id="nav">
         <a href="#" class="icon solid fa-home"><span>Home</span></a>
+        <a href="#about" class="icon solid fa-user-circle"><span>About</span></a>
         <a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-        <a
-          href="https://www.linkedin.com/in/nuricheun/"
-          target="_blank"
-          class="icon brands fa-github"
-          ><span>Github</span></a
-        >
-        <a
-          href="https://www.linkedin.com/in/nuricheun/"
-          target="_blank"
-          class="icon brands fa-linkedin"
-          ><span>Linkedin</span></a
-        >
-        <a href="#" class="icon solid fa-file"><span>Resume</span></a>
+        <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+      
       </nav>
 
       <!-- Main -->
@@ -56,11 +46,8 @@
             <h1>Nuri Cheun</h1>
             <p>Software Engineer</p>
           </header>
-          <a href="#work" class="jumplink pic">
-            <span class="arrow icon solid fa-chevron-right"
-              ><span>See my work</span></span
-            >
-            <img src="images/sanfran.jpg" alt="" />
+          <a href="#about" class="jumplink pic">
+            <img src="images/me.jpeg" alt="" />
           </a>
         </article>
 
@@ -69,15 +56,77 @@
           <header>
             <h2>Work</h2>
           </header>
-          <p>
-            I feel passionate about building product with various skills and
-            technologies, while debugging, and writing clean, semantic code.
-            <br />
-          </p>
           <section>
-            <h2>Skills</h2>
+            <div class="row">
+              <div class="col-4 col-6-medium col-12-small">
+                <a href="https://sound-log.herokuapp.com/" target="_blank" class="image fit container">
+                  <img class="work-img" src="images/soundlog.png" alt="SOUND.LOG"/>
+                  <div class="overlay">
+                    <p class="skills-p">React JS / Express</p>
+                    <p class="live">Live site</p>
+                  </div>
+                </a> 
+                <h6 class="work-title">Sound.Log</h6>
+                <p class="description">
+                Music streaming web application inspired by SoundCloud
+                </p>
+              </div>
+              <div class="col-4 col-6-medium col-12-small">
+                <a href="http://closet-x.herokuapp.com/" target="_blank" class="image fit container">
+                  <img class="work-img" src="images/closetx.gif" alt="closetx" />
+                  <div class="overlay">
+                    <p class="skills-p">React JS / Express</p>
+                    <p class="live">Live site</p>
+                  </div>
+                </a>
+                <h3 class="work-title">Closet X</h3>
+                <p class="description">
+                  Virtual closet where users can create outfits
+                </p>
+              </div>
+              <div class="col-4 col-6-medium col-12-small">
+                <a href="https://nuricheun.github.io/fat-cat/" target="_blank" class="image fit container">
+                  <img class="work-img" src="images/fatcat.png" alt="fatcat" />
+                  <div class="overlay">
+                    <p class="skills-p">JavaScript</p>
+                    <p class="live">Live site</p>
+                  </div>
+                </a>
+                <h3 class="work-title">FAT CAT</h3>
+                <p class="description">
+                  An interactive game which tests users’ short-term memory
+                </p>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!-- about -->
+        <article id="about" class="panel">
+          <header>
+            <h2>About</h2>
+          </header>
+            <p>
+              I'm a Front-End Developer in San Francisco, CA.<br/>
+              I feel passionate about building product with various skills and
+              technologies, while debugging, and writing clean, semantic code.
+              <br />
+            </p>
+          <section>
+            <h3>Resume</h3>
+                <div class="resume-icon">
+                  <a
+                    class="resume-icon"
+                    href="https://docs.google.com/document/d/15X-G43UztFl94lUyUuSzM731XVVsYu2ZqrinZKtgh5M/export?format=pdf"
+                  >
+                    <i class="fas fa-file-download"></i></a
+                  ><span> Resume PDF</span>
+                </div>
+            <h3>Skills</h3>
             <ul class="skillIcons">
-              <div><span class="devicon-javascript-plain colored"></span></div>
+              <div>
+                <span class="devicon-javascript-plain colored"></span>
+              </div>
               <div>
                 <span class="devicon-express-original-wordmark colored"></span>
               </div>
@@ -98,9 +147,11 @@
                 ></span>
               </div>
               <div>
+                <span class="devicon-python-plain-wordmark colored"></span>
+              </div>
+              <div>
                 <span class="devicon-mongodb-plain-wordmark colored"></span>
               </div>
-
               <div>
                 <span class="devicon-css3-plain-wordmark colored"></span>
               </div>
@@ -111,7 +162,7 @@
                 <span
                   class="iconify"
                   data-icon="logos-graphql"
-                  data-inline="false"
+                  data-inline="true"
                 ></span>
               </div>
               <div>
@@ -138,93 +189,59 @@
               <div><span></span></div>
               <div><span></span></div>
             </ul>
-          </section>
-          <section>
-            <div class="row">
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/soundlog.png" alt=""
-                /></a>
-                <h6 class="work-title">Sound.Log</h6>
-                <p class="description">
-                  Music streaming web application inspired by SoundCloud
-                </p>
-                <a
-                  href="https://sound-log.herokuapp.com/"
-                  target="_blank"
-                  class="site-link"
-                  >Live site</a
-                >
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/closetx.gif" alt=""
-                /></a>
-                <h3 class="work-title">Closet X</h3>
-                <p class="description">
-                  Virtual closet where users can create outfits
-                </p>
-                <a
-                  href="http://closet-x.herokuapp.com/"
-                  target="_blank"
-                  class="site-link"
-                  >Live site</a
-                >
-              </div>
-              <div class="col-4 col-6-medium col-12-small">
-                <a href="#" class="image fit"
-                  ><img src="images/winner.png" alt=""
-                /></a>
-                <h3 class="work-title">FAT CAT</h3>
-                <p class="description">
-                  An interactive game which tests users’ short-term memory
-                </p>
-                <a
-                  href="https://nuricheun.github.io/fat-cat/"
-                  target="_blank"
-                  class="site-link"
-                  >Live site</a
-                >
-              </div>
-            </div>
+            <h3>Experience</h3>
+            <ul class="exp">
+              <li>
+                <span>ONEHOPE</span>
+                <span class="position">Full Stack Developer</span>
+                <div class="space-between"></div>
+                <span class="period">Jan 2020 - June 2020</span>
+              </li>
+              <li>
+                <span>App Academy</span>
+
+                <span class="position">Technical Instructor</span>
+                <div class="space-between"></div>
+                <span class="period">Jan 2020 - June 2020</span>
+              </li>
+            </ul>
           </section>
         </article>
 
-        <!-- Contact -->
+        <!-- contact -->
         <article id="contact" class="panel">
-          <header>
-            <h2>Contact Me</h2>
-          </header>
-          <form action="#" method="post">
-            <div>
-              <div class="row">
-                <div class="col-6 col-12-medium">
-                  <input type="text" name="name" placeholder="Name" />
-                </div>
-                <div class="col-6 col-12-medium">
-                  <input type="text" name="email" placeholder="Email" />
-                </div>
-                <div class="col-12">
-                  <input type="text" name="subject" placeholder="Subject" />
-                </div>
-                <div class="col-12">
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    rows="6"
-                  ></textarea>
-                </div>
-                <div class="col-12">
-                  <input type="submit" value="Send Message" />
+            <header>
+              <h2>Contact</h2>
+            </header>
+            <form action="mailto:nuri.cheun@gmail.com" enctype=”multipart/form-data” method="post">
+              <div>
+                <div class="row">
+                  <div class="col-6 col-12-medium">
+                    <input type="text" name="name" placeholder="Name" />
+                  </div>
+                  <div class="col-6 col-12-medium">
+                    <input type="text" name="email" placeholder="Email" />
+                  </div>
+                  <div class="col-12">
+                    <input type="text" name="subject" placeholder="Subject" />
+                  </div>
+                  <div class="col-12">
+                    <textarea name="message" placeholder="Message" rows="6"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <input class="submit-button" type="submit" value="Send Message" />
+                  </div>
                 </div>
               </div>
-            </div>
-          </form>
-        </article>
+            </form>
       </div>
 
       <!-- Footer -->
       <div id="footer">
+        <a href="https://www.linkedin.com/in/nuricheun/" target="_blank"
+          class="icon brands fa-linkedin">
+        </a>
+        <a href="https://github.com/nuricheun/" target="_blank" class="icon brands fa-github"></a>
         <ul class="copyright">
           <li>&copy; NuriCheun.</li>
           <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
